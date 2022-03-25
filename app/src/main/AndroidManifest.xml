@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.customerinterface">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/projectlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/projectlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CustomerInterface">
+        <activity android:name="UserCategoryInterface.AnimalFoodInterface"></activity>
+        <activity android:name="UserCategoryInterface.KitchenwareInterface" />
+        <activity android:name="UserCategoryInterface.ToiletriesInterface" />
+        <activity android:name="UserCategoryInterface.LaundryInterface" />
+        <activity android:name="UserCategoryInterface.MedicineInterface" />
+        <activity android:name="UserCategoryInterface.BreadInterface" />
+        <activity android:name="UserCategoryInterface.SpicesInterface" />
+        <activity android:name="UserCategoryInterface.SnacksInterface" />
+        <activity android:name="UserCategoryInterface.BeverageInterface" />
+        <activity android:name="Checkout.AddAddressCheckout" />
+        <activity android:name="UserCategoryInterface.RiceInterface" />
+        <activity android:name="UserCategoryInterface.StationaryInterface" />
+        <activity android:name=".UserManualInterface" />
+        <activity android:name=".UserAddressInterface" />
+        <activity android:name=".UserMyOrderInterface" />
+        <activity android:name=".ShowDetailActivity" />
+        <activity android:name=".UserProfileInterface" />
+        <activity android:name=".CartListActivity" />
+        <activity android:name=".MainActivityCustomer" />
+        <activity android:name=".CustomerLogin" />
+        <activity android:name=".CustomerSignUp" />
+        <activity android:name="splashAct.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
